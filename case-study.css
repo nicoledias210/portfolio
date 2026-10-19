@@ -189,18 +189,18 @@ body.case-study .block {
   box-shadow: var(--case-shadow);
 }
 body.case-study .block::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--route-blue); }
-body.case-study main > .block:nth-of-type(2)::before { background: var(--route-coral); }
-body.case-study main > .block:nth-of-type(3)::before { background: var(--route-green); }
-body.case-study main > .block:nth-of-type(4)::before { background: var(--route-purple); }
-body.case-study main > .block:nth-of-type(5)::before { background: var(--route-gold); }
-body.case-study main > .block:nth-of-type(2) .num,
-body.case-study main > .block:nth-of-type(2) > .kicker { color: var(--route-coral); }
-body.case-study main > .block:nth-of-type(3) .num,
-body.case-study main > .block:nth-of-type(3) > .kicker { color: #159a74; }
-body.case-study main > .block:nth-of-type(4) .num,
-body.case-study main > .block:nth-of-type(4) > .kicker { color: var(--route-purple); }
-body.case-study main > .block:nth-of-type(5) .num,
-body.case-study main > .block:nth-of-type(5) > .kicker { color: var(--route-gold); }
+body.case-study .content .block:nth-of-type(2)::before { background: var(--route-coral); }
+body.case-study .content .block:nth-of-type(3)::before { background: var(--route-green); }
+body.case-study .content .block:nth-of-type(4)::before { background: var(--route-purple); }
+body.case-study .content .block:nth-of-type(5)::before { background: var(--route-gold); }
+body.case-study .content .block:nth-of-type(2) .num,
+body.case-study .content .block:nth-of-type(2) > .kicker { color: var(--route-coral); }
+body.case-study .content .block:nth-of-type(3) .num,
+body.case-study .content .block:nth-of-type(3) > .kicker { color: var(--route-green); }
+body.case-study .content .block:nth-of-type(4) .num,
+body.case-study .content .block:nth-of-type(4) > .kicker { color: var(--route-purple); }
+body.case-study .content .block:nth-of-type(5) .num,
+body.case-study .content .block:nth-of-type(5) > .kicker { color: var(--route-gold); }
 body.case-study .block h2 {
   max-width: 850px;
   margin: 10px 0 20px;
